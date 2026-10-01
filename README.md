@@ -21,3 +21,36 @@ I'm a software and AI engineer based in Florida who loves bringing ideas to life
 
 ### 📬 Let's Connect
 Feel free to check out my repositories or reach out right here on GitHub!
+
+
+# dd-recovery-os 🚀
+
+[![CI Testing](https://github.com/emanthesoftwareengineer0403-art/dd-recovery-os/actions/workflows/pytest.yml/badge.svg)](https://github.com/emanthesoftwareengineer0403-art/dd-recovery-os/actions/workflows/pytest.yml)
+[![Python Version](https://img.shields.io/badge/python-3.11%20%7C%203.14-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A modular, scalable Python backend application featuring a robust core engine, live-development middleware logging, and automated CI/CD-integrated testing.
+
+---
+
+## 🛠️ Project Architecture
+
+```text
+dd-recovery-os/
+├── .github/
+│   └── workflows/
+│       └── pytest.yml      # Automated GitHub Actions CI pipeline
+├── logs/
+│   └── app.log             # Persistent runtime event & request logs
+├── src/
+│   ├── core/
+│   │   └── engine.py       # Core application engine lifecycle
+│   ├── integrations/       # External service and file system integrations
+│   └── utils/
+│       └── logger.py       # Standardized multi-stream logging utility
+├── tests/
+│   └── test_app.py         # Pytest suite for unit & API endpoint validation
+├── main.py                 # FastAPI application entry point
+├── config.py               # Global project configuration paths
+└── requirements.txt        # Project dependencies
